@@ -49,3 +49,19 @@ p {
     color: #a786df;
 }
 .main-area {}
+
+/* 
+ Footer area css
+*/
+/* 
+    Footer area css
+*/
+.footer-area {
+    background-color: #0e172c;
+}
+.footer-area p {
+    color: #d9d4e7
+}
+.footer-area a {
+    color: #a786df;
+}
