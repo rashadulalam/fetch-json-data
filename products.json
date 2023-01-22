@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "ASUS X515MA 15.6-Inch Full HD Display Celeron N4020 4GB Ram 1TB HDD Laptop",
+        "price" : "42500",
+        "brand" : "ASUS",
+        "model" : "X515MA",
+        "url" : "./img/1.jpg"
+    },
+    {
+        "name" : "Apple Macbook Pro M2 (MNEH3) 13.3 Inch Retina Display M2 Chip 8GB RAM 256GB SSD Laptop (Space Grey)",
+        "price" : "162,000",
+        "brand" : "Apple",
+        "model" : "MacBook Pro M2",
+        "url" : "./img/2.jpg"
+    },
+    {
+        "name" : "Lenovo Legion 7 16ACHG6 16 Inch WQXGA 165Hz Display Ryzen 7 5800H 16GB RAM 1TB SSD Gaming Laptop With RTX 3080 16GB Graphics",
+        "price" : "307,000",
+        "brand" : "Lenovo",
+        "model" : "Legion 7 16ACHG6",
+        "url" : "./img/3.jpg"
+    },
+    {
+        "name" : "Lenovo IdeaPad Slim 3i 15.6 Inch Full HD Display Core I5 11th Gen 8GB RAM 512GB SSD Laptop MX350 2GB Graphics",
+        "price" : "79,500",
+        "brand" : "Lenovo",
+        "model" : "IDEAPAD Slim 3i",
+        "url" : "./img/4.jpg"
+    },
+    {
+        "name" : "Lenovo IdeaPad Slim 3i 15.6 Inch Full HD Display Core I3 11th Gen 4GB RAM 256GB SSD Laptop",
+        "price" : "53,000",
+        "brand" : "Lenovo",
+        "model" : "IdeaPad Slim 3i",
+        "url" : "./img/5.jpg"
+    }
+]
