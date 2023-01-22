@@ -3,6 +3,22 @@ body {
     color: #0e172c;
     line-height: 1.5;
 }
+h1, h2, h3, h4 {
+    color: #0e172c;
+    margin: 0;
+}
+p {
+    margin: 0
+}
+.bdbtn {
+    background-color: #0e172c;
+    color: #fffffe;
+    margin: 10px 0;
+}
+.bdbtn:hover {
+
+    color: #fec7d7;
+}
 .header-area {
     
 }
@@ -16,5 +32,20 @@ body {
 .header-area .navbar-brand {
     color: #fffffe;
 }
+
+/* 
+ product area css
+*/
+.single-products {
+    background-color: #fffffe;
+}
+.single-products h3 {
+    color: #0e172c;
+}
+.single-products p {
+    color: #0e172c;
+}
+.single-products h5 {
+    color: #a786df;
+}
 .main-area {}
-.footer-area {}
