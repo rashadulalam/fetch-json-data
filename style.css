@@ -1,0 +1,20 @@
+body {
+    background-color: #fec7d7;
+    color: #0e172c;
+    line-height: 1.5;
+}
+.header-area {
+    
+}
+.header-area .navbar {
+    background-color: #0e172c;
+}
+.header-area .navbar-nav .nav-item .nav-link {
+    color: #fffffe;
+    padding: 10px 25px;
+}
+.header-area .navbar-brand {
+    color: #fffffe;
+}
+.main-area {}
+.footer-area {}
