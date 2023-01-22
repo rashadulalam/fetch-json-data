@@ -3,13 +3,13 @@
 const productDiv = document.getElementById("all-products");
 
 const url = "products.json";
+
 fetch( url )
 .then(function(response) {
     return response.json();
 })
 .then(function(data) {
-    console.log(data);
-
+console.log(data)
     for(let i=0; i < data.length; i++) {
         productDiv.innerHTML += `
         <div class="col-lg-4 mb-4 mb-lg-4">
@@ -30,3 +30,16 @@ fetch( url )
 .catch(function(error) {
     console.log(error)
 })
+
+
+// preloader
+window.onload = function() {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("page-loaded");
+
+    setTimeout(function(){
+        preloader.style.display = "none"
+    }, 500);
+    
+    
+}

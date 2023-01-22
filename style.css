@@ -54,9 +54,6 @@ p {
 /* 
  Footer area css
 */
-/* 
-    Footer area css
-*/
 .footer-area {
     background-color: #0e172c;
 }
@@ -65,4 +62,42 @@ p {
 }
 .footer-area a {
     color: #a786df;
+}
+
+/* 
+ preloader css
+*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+#preloader::before,
+#preloader::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-color: #0e172c;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+#preloader::before{
+    left: 0;
+}
+#preloader::after {
+    right: 0;
+}
+#preloader.page-loaded::before {
+    left: -50%;
+}
+#preloader.page-loaded::after {
+    right: -50%;
+}
+.page-loaded .spinner-border{
+    display: none;
 }
